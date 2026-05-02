@@ -1,5 +1,5 @@
 
-//Primitive data types:
+//Primitive data types: that stores single simple values
 
 let age = 20;                        // Number
 let big = 12345678901234567890n;     // BigInt
@@ -7,6 +7,7 @@ let name = "Samad";                  // String
 let isActive = true;                 // Boolean
 let data = null;                     // Null
 let x;                               // Undefined
+symbol                               //unique
 
 
 

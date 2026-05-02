@@ -1,0 +1,16 @@
+
+
+let age = "21"                     // Only Number
+console.log(typeof age);            //String
+
+let val_in_number = Number(age);    
+console.log(val_in_number);         //21
+
+
+//  age = "21a"                 //Letter + Number
+
+// console.log(typeof age);              //String
+
+// let val_in_number = Number(age);   
+// console.log(typeof val_in_number);    //number    
+// console.log(val_in_number)            //NaN
