@@ -7,7 +7,7 @@ let name = "Samad";                  // String
 let isActive = true;                 // Boolean
 let data = null;                     // Null
 let x;                               // Undefined
-symbol                               //unique
+const id = Symbol('348')             //unique
 
 
 
