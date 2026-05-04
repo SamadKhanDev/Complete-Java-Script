@@ -1,4 +1,4 @@
-//---------> Array Part-1
+//---------> Array Part-1 (Invloves: push(), pop(), shift(), shift(), unshift(), includes(), indexOf() , join() , isArray() , slice() , splice() , from(), .of())
 
 /*
 
@@ -40,6 +40,9 @@ console.log(array.indexOf(1))      //Index: 1
 // All elements in an array --> String 
 console.log(array.join())          //0,1,2,3,4,5
 
+//Checks if it is an array
+console.log(Array.isArray("SammuBhaya"))  //false
+
 // ---------> 
 
 //slice: cut piece, keep original safe
@@ -52,4 +55,24 @@ console.log(originalArray)                      //[10, 20, 30, 40, 50]
 const originalArray = [10, 20, 30, 40, 50]      //Original Array
 console.log(originalArray.splice(1, 3))         //[20, 30, 40]
 console.log(originalArray)                      //[10, 50]
+
+// ---------> 
+
+//Converts something into an array
+console.log(Array.from("SammuBhaya"))     // ['S', 'a', 'm', 'm', 'u', 'B', 'h', 'a', 'y', 'a']
+
+// Puttting values inside an array
+const step1 = 1;
+const step2 =2;
+const step3 =3
+const step4 =4;
+
+console.log(Array.of(step1, step2, step3, step4));
+
+
+
+
+Note: 
+.from():
+returns [] if input is not iterable/ if input is empty
 */
