@@ -1,5 +1,5 @@
 /*
-//---------> Scopes: Involves Concept of Local & Global Scope
+//---------> Scopes: Part-1: Involves Concept of Local & Global Scope
 
 {} --> Scope
 
@@ -28,6 +28,6 @@ var b = 20;
 console.log("Inner Value: "+b)    //20
 }
 
-var b =400;
+var b = 400;
 console.log("Outer Value: "+b)    //400
 */
